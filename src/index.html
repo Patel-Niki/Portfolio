@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niki Patel</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="font-serif bg-gray-700">
+      <!-- -----------------------------------Nav Bar Section----------------------------------------------- -->
+
+      <div class="flex justify-between items-center p-[1rem]">
+        <div class="p-[1rem]">
+          <p class="text-md text-gray-300">Code | Create | Conquer</p>
+        </div>
+
+        <div class="p-[1rem] space-x-[5rem]">
+          <button
+            class="text-md text-gray-400 cursor-pointer"
+            onclick="document.getElementById('background').scrollIntoView({ behavior: 'smooth'})"
+          >
+            Background
+          </button>
+          <button
+            class="text-md text-gray-400 cursor-pointer"
+            onclick="document.getElementById('experience').scrollIntoView({ behavior: 'smooth'})"
+          >
+            Experience
+          </button>
+          <button
+            class="text-md text-gray-400 cursor-pointer"
+            onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth'})"
+          >
+            Projects
+          </button>
+          <button
+            class="text-md text-gray-400 cursor-pointer"
+            onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth'})"
+          >
+            Contact Me
+          </button>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------------------------------------- -->
+
+      <!-- -----------------------------------Hero Section----------------------------------------------- -->
+
+      <div class="flex flex-col items-center p-[14rem]">
+        <div class="items-center flex flex-col">
+          <p class="text-7xl text-gray-300">Hi, I'm Niki!</p>
+          <p class="text-4xl mt-3 text-gray-300">Software Engineer</p>
+          <div class="font-thin">
+            <p class="text-gray-400 mt-3 text-lg">
+              I build scalable distributed systems and high-performance full
+              stack applications
+            </p>
+          </div>
+        </div>
+
+        <div class="flex justify-between text-gray-200 gap-[3rem] p-[2rem]">
+          <button
+            class="border px-4 py-2 hover:bg-white hover:text-black shadow-black shadow-md"
+            onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth'})"
+          >
+            View My Work
+          </button>
+          <button
+            id="resume"
+            class="border px-4 py-2 hover:bg-white hover:text-black shadow-black shadow-md"
+          >
+            Download Resume
+          </button>
+        </div>
+      </div>
+
+      <!-- ----------------------------------------------------------------------------------------------- -->
+
+      <div id="background">
+        <!-- -----------------------------------Education Section------------------------------------------- -->
+
+        <div class="flex justify-center items-center p-[1rem] gap-[1rem]">
+          <div class="w-1/2 flex flex-col items-center p-[1rem]">
+            <div class="p-[1rem]">
+              <p class="text-5xl text-gray-300">Education</p>
+            </div>
+
+            <div class="flex justify-between items-center gap-[1rem]">
+              <div class="p-[1rem] items-start">
+                <p class="text-xl text-gray-300">MS in Computer Science</p>
+                <p class="text-md text-gray-400">
+                  Drexel University - June 2024
+                </p>
+                <p class="text-md text-gray-400">GPA - 3.8/4</p>
+              </div>
+              <div class="p-[1rem] items-start">
+                <p class="text-xl text-gray-300">
+                  BE in Computer Science & Engineering
+                </p>
+                <p class="text-md text-gray-400">
+                  Gujarat Technological University - May 2016
+                </p>
+                <p class="text-md text-gray-400">CGPA - 7.7/10</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ----------------------------------------------------------------------------------------------- -->
+
+          <!-- -----------------------------------About Section----------------------------------------------- -->
+
+          <div class="w-1/2 p-[2rem] font-extralight">
+            <p class="text-5xl text-gray-300 font-medium mb-10">About Me</p>
+            <p class="text-lg text-gray-400 mb-4">
+              I am a <b class="text-gray-300">Software Engineer</b> with a
+              <b class="text-gray-300">Master's in Computer Science </b> and
+              <b class="text-gray-300">AWS certified Developer - Associate</b>
+              certification
+            </p>
+            <p class="text-lg text-gray-400 mb-4">
+              Experienced in designing
+              <b class="text-gray-300"
+                >RESTful APIs, Microservices Architecture</b
+              >, building
+              <b class="text-gray-300">scalable, distributed systems</b> and
+              <b class="text-gray-300"
+                >high-performance full-stack applications</b
+              >
+              and deploying cloud-based solutions on AWS
+            </p>
+            <p class="text-lg text-gray-400">
+              Ability to
+              <b class="text-gray-300"
+                >collaborate with cross-functional teams</b
+              >
+              to drive innovation
+            </p>
+          </div>
+        </div>
+
+        <!-- ------------------------------------------------------------------------------------------------ -->
+
+        <!-- -----------------------------------Expertise Section-------------------------------------------- -->
+
+        <div class="flex flex-col items-center p-[10rem]">
+          <div class="">
+            <p class="text-5xl text-gray-300">Area of Experties</p>
+          </div>
+
+          <div class="flex justify-between items-center gap-[2rem] p-[1rem]">
+            <div class="flex flex-col items-center p-[1rem] gap-y-[1rem]">
+              <div class="p-[1rem] font-extralight">
+                <p class="text-2xl text-gray-300">Front End</p>
+              </div>
+
+              <div class="flex justify-between items-center gap-[1rem]">
+                <img
+                  src="./assets/react.svg"
+                  alt="react-logo"
+                  class="h-10 w-10"
+                />
+                <img
+                  src="./assets/javascript.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+                <img
+                  src="./assets/typescript.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+                <img
+                  src="./assets/html.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+                <img
+                  src="./assets/css.svg"
+                  alt="javascript-logo"
+                  class="h-15 w-15"
+                />
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center p-[1rem] gap-y-[1rem]">
+              <div class="p-[1rem] font-extralight">
+                <p class="text-2xl text-gray-300">Back End</p>
+              </div>
+              <div class="flex justify-between items-center gap-[1rem]">
+                <img
+                  src="./assets/java.svg"
+                  alt="javascript-logo"
+                  class="h-15 w-15"
+                />
+                <img
+                  src="./assets/python.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+                <img
+                  src="./assets/node.svg"
+                  alt="javascript-logo"
+                  class="h-15 w-15"
+                />
+                <img
+                  src="./assets/spring.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center p-[1rem] gap-y-[1rem]">
+              <div class="p-[1rem] font-extralight">
+                <p class="text-2xl text-gray-300">Tools & Technology</p>
+              </div>
+              <div class="flex justify-between items-center gap-[1rem]">
+                <img
+                  src="./assets/docker.svg"
+                  alt="javascript-logo"
+                  class="h-15 w-15"
+                />
+                <img
+                  src="./assets/git.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+                <img
+                  src="./assets/kafka.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+                <img
+                  src="./assets/oauth.svg"
+                  alt="javascript-logo"
+                  class="h-12 w-12"
+                />
+                <img
+                  src="./assets/websocket.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+                <img
+                  src="./assets/jira.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------------------------------------------------------------------------------------------------ -->
+      </div>
+      <!-- ------------------------------------Experience Section-------------------------------------------- -->
+
+      <div id="experience" class="">
+        <div class="flex justify-between items-center p-[3rem]">
+          <div class="w-1/3 flex justify-end p-[2rem]">
+            <p class="text-5xl text-gray-300">Experience</p>
+          </div>
+
+          <div class="flex flex-col p-[3rem] gap-y-[1rem]">
+            <div class="font-thin space-y-[0.2rem] pb-[2rem]">
+              <div class="">
+                <p class="text-2xl text-gray-300 mb-2">
+                  Software Engineer | August 2024 - Present
+                </p>
+                <p class="text-xl text-gray-300">OneCo</p>
+              </div>
+              <div class="pl-[3rem] space-y-[0.4rem]">
+                <p class="text-md text-gray-400">
+                  Designed and implemented
+                  <b class="text-gray-300">RESTful APIs</b> using
+                  <b class="text-gray-300">Node JS</b> and
+                  <b class="text-gray-300">Express</b> with
+                  <b class="text-gray-300">JWT authentication</b> and
+                  <b class="text-gray-300">OAuth 2.0</b> for secure access,
+                  reducing unauthorized access by
+                  <b class="text-gray-300">40%</b>
+                </p>
+                <p class="text-md text-gray-400">
+                  Integrated <b class="text-gray-300">Stripe API</b> for
+                  automated reimbursement processing, reducing manual efforts by
+                  <b class="text-gray-300">75%</b>, ensuring secure transaction
+                </p>
+                <p class="text-md text-gray-400">
+                  Enhanced onboarding UI with
+                  <b class="text-gray-300">React hooks</b> and
+                  <b class="text-gray-300">context API</b>, adding form
+                  validation using <b class="text-gray-300">Yup</b>, reducing
+                  errors by <b class="text-gray-300">25%</b>
+                </p>
+              </div>
+            </div>
+
+            <div class="font-thin space-y-[0.2rem] pb-[2rem]">
+              <div class="">
+                <p class="text-2xl text-gray-300 mb-2">
+                  Teaching Assistant | September 2023 - June 2024
+                </p>
+                <p class="text-xl text-gray-300">Drexel University</p>
+              </div>
+              <div class="pl-[3rem] space-y-[0.4rem]">
+                <p class="text-md text-gray-400">
+                  Mentored <b class="text-gray-300"></b>30+ students in
+                  <b class="text-gray-300">machine learning</b> and
+                  <b class="text-gray-300">software design</b>, clarifying
+                  complex concepts like
+                  <b class="text-gray-300"
+                    >neural networks, supervised/ unsupervised learning</b
+                  >
+                  and <b class="text-gray-300">architectural design patterns</b>
+                </p>
+              </div>
+            </div>
+
+            <div class="font-thin space-y-[0.2rem]">
+              <div class="">
+                <p class="text-2xl text-gray-300 mb-2">
+                  Software Engineer CO-OP | September 2023 - December 2023
+                </p>
+                <p class="text-xl text-gray-300">3D HoloGroup, Inc</p>
+              </div>
+              <div class="pl-[3rem] space-y-[0.4rem]">
+                <p class="text-md text-gray-400">
+                  Developed a<b class="text-gray-300">microservices</b> based
+                  trading analytics platform with
+                  <b class="text-gray-300">Node JS</b> and
+                  <b class="text-gray-300">Kafka</b> event-driven architecture,
+                  ensuring <b class="text-gray-300">sub-50ms</b> real-time
+                  updates for high-frequency trading
+                </p>
+                <p class="text-md text-gray-400">
+                  Led the development of a dynamic front-end using
+                  <b class="text-gray-300">React</b> and
+                  <b class="text-gray-300">Redux</b>, reducing state management
+                  issues by <b class="text-gray-300">40%</b> and increasing
+                  engagement time by <b class="text-gray-300">25%</b>
+                </p>
+              </div>
+            </div>
+            <div class="p-[2rem] text-gray-200">
+              <button
+                class="border px-4 py-2 hover:bg-white hover:text-black shadow-black shadow-md"
+              >
+                View More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------------------------- -->
+
+      <!-- ------------------------------------Contact me Section-------------------------------------------- -->
+
+      <div id="projects" class="border">
+        <div
+          class="flex justify-between items-center pt-[5rem] pb-[5rem] pl-[2rem] pr-[2rem] space-x-[3rem]"
+        >
+          <div class="text-gray-200">
+            <button
+              class="px-4 py-2 border hover:bg-white hover:text-black shadow-black shadow-md"
+            >
+              <
+            </button>
+          </div>
+
+          <div class="w-1/3 flex flex-col items-center">
+            <img
+              src="./assets/github-bg.png"
+              alt="background"
+              class="h-[30rem]"
+            />
+
+            <p class="text-2xl text-gray-300 pt-2">GitHub Integration App</p>
+            <div class="flex justify-between p-[2rem] text-gray-200">
+              <button
+                class="px-4 py-2 border mr-[2rem] hover:bg-white hover:text-black shadow-black shadow-md"
+                id="github-view-btn"
+              >
+                View
+              </button>
+              <button
+                class="px-4 py-2 border hover:bg-white hover:text-black shadow-black shadow-md"
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="w-1/3 flex flex-col items-center">
+            <img
+              src="./assets/receipt.png"
+              alt="background"
+              class="h-[30rem]"
+            />
+            <p class="text-2xl text-gray-300 pt-2">Receipt Processor</p>
+            <div class="flex justify-between p-[2rem] text-gray-200">
+              <button
+                class="px-4 py-2 border mr-[2rem] hover:bg-white hover:text-black shadow-black shadow-md"
+                id="receipt-view-btn"
+              >
+                View
+              </button>
+              <button
+                class="px-4 py-2 border hover:bg-white hover:text-black shadow-black shadow-md"
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="w-1/3 flex flex-col items-center">
+            <img src="./assets/image.jpeg" alt="background" class="h-[30rem]" />
+            <div class="flex justify-between p-[2rem] text-white">
+              <button
+                class="px-4 py-2 border mr-[2rem] hover:bg-white hover:text-black shadow-black shadow-md"
+              >
+                View
+              </button>
+              <button
+                class="px-4 py-2 border hover:bg-white hover:text-black shadow-black shadow-md"
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="text-white">
+            <button
+              class="px-4 py-2 border hover:bg-white hover:text-black shadow-black shadow-md"
+            >
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------------------------- -->
+
+      <!-- ------------------------------------Contact me Section-------------------------------------------- -->
+
+      <div id="contact">
+        <div class="flex flex-col items-center p-[2rem]">
+          <div class="mb-2">
+            <p class="text-5xl text-gray-300">Contact Me</p>
+          </div>
+          <div class="pb-[3rem]">
+            <p class="text-md text-gray-400">
+              I’m excited to connect and explore opportunities to contribute to
+              innovative software development projects. Let’s collaborate to
+              build impactful solutions together!
+            </p>
+          </div>
+
+          <div class="flex flex-col p-[1rem] font-thin">
+            <div class="flex justify-between items-center gap-[3rem] mb-[2rem]">
+              <div class="flex justify-between gap-[1rem]">
+                <label class="text-2xl text-gray-300">Name</label>
+                <input type="text" class="border text-gray-200 p-[0.5rem]" />
+              </div>
+
+              <div class="flex justify-between gap-[1rem]">
+                <label class="text-2xl text-gray-300">Email</label>
+                <input type="email" class="border text-gray-200 p-[0.5rem]" />
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-[1rem]">
+              <label class="text-2xl text-gray-300">Message</label>
+              <textarea
+                class="border text-gray-200 h-[10rem] p-[0.5rem]"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="p-[2rem] flex flex-col items-center text-gray-200">
+            <button
+              class="border px-6 py-2 hover:bg-white hover:text-black shadow-black shadow-md"
+            >
+              Submit
+            </button>
+
+            <div class="flex flex-col items-center">
+              <div class="p-[2rem]">
+                <p class="text-xl">Or</p>
+              </div>
+
+              <div class="flex justify-between items-center gap-[2rem]">
+                <img
+                  src="./assets/linkedin.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+
+                <img
+                  src="./assets/github.svg"
+                  alt="javascript-logo"
+                  class="h-10 w-10"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------------------------- -->
+    </div>
+  </body>
+  <script>
+    // const receipt = document.getElementById("receipt-view-btn");
+
+    // receipt.addEventListener("click", () => {
+    //   window
+    //     .open("https://github.com/Patel-Niki/Receipt-Processor.git", "_blank")
+    //     .focus();
+    // });
+  </script>
+  <script src="script.js"></script>
+</html>
