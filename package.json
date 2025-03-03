@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx @tailwindcss/cli -i ./src/main.css -o ./src/style.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./main.css -o ./style.css --watch"
   },
   "author": "Niki Patel",
   "license": "ISC",
