@@ -29,3 +29,24 @@ receipt.addEventListener("click", () => {
     .open("https://github.com/Patel-Niki/Receipt-Processor.git", "_blank")
     .focus();
 });
+
+// Sound Detection Project Open event
+const sound = document.getElementById("sound-view-btn");
+
+sound.addEventListener("click", () => {
+  window
+    .open("https://github.com/Patel-Niki/Philly-Codefest.git", "_blank")
+    .focus();
+});
+
+const linkedin = document.getElementById("linkedin-img");
+
+linkedin.addEventListener("click", () => {
+  window.open("https://www.linkedin.com/in/niki-patel97/");
+});
+
+const githubImg = document.getElementById("github-img");
+
+githubImg.addEventListener("click", () => {
+  window.open("https://github.com/Patel-Niki");
+});
